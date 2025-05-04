@@ -67,6 +67,8 @@ export default async function PortfolioPage() {
     { name: "Node.js", category: "backend" },
     { name: "Express", category: "backend" },
     { name: "MongoDB", category: "backend" },
+    { name: "Dotnet", category: "backend" },
+    { name: "Fastapi", category: "backend" },
     { name: "PostgreSQL", category: "backend" },
     { name: "Git", category: "tools" },
     { name: "Docker", category: "tools" },
@@ -307,7 +309,7 @@ export default async function PortfolioPage() {
                   </p>
                   <div className="flex items-center gap-2 text-zinc-300">
                     <Mail className="w-5 h-5 text-purple-400" />
-                    <span>{userData?.email || "contact@example.com"}</span>
+                    <span>{userData?.email || "gracjanpw@gmail.com"}</span>
                   </div>
                   <div className="flex items-center gap-2 text-zinc-300">
                     <Github className="w-5 h-5 text-purple-400" />
@@ -328,7 +330,7 @@ export default async function PortfolioPage() {
                     asChild
                   >
                     <Link
-                      href={`mailto:${userData?.email || "contact@example.com"}`}
+                      href={`mailto:${userData?.email || "gracjanpw@gmail.com"}`}
                       className="flex items-center justify-center gap-2"
                     >
                       Send me an email
